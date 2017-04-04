@@ -37,6 +37,8 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-mail')
 	compile('org.springframework.boot:spring-boot-starter-social-facebook')
 	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
+	// https://mvnrepository.com/artifact/net.sourceforge.nekohtml/nekohtml
+	compile group: 'net.sourceforge.nekohtml', name: 'nekohtml', version: '1.9.22'
 	compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:${kotlinVersion}")
 	compile("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
 	testCompile('org.springframework.boot:spring-boot-starter-test')
